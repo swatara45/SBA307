@@ -1,0 +1,73 @@
+/* Style for the navigation menu */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for each menu item */
+.navbar li {
+    position: relative;
+}
+
+/* Style for links */
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+    background-color: #575757;
+}
+
+/* Active link styling */
+.active {
+    background-color: #04AA6D;
+}
+
+/* Float the "About" section to the right */
+.navbar .dropdown {
+    margin-left: auto; /* Pushes "About" to the right */
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 150px;
+    z-index: 1;
+}
+
+/* Dropdown menu items */
+.dropdown-content li {
+    display: block;
+    width: 100%;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown links */
+.dropdown-content li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-align: left;
+}
+
+/* Hover effect for dropdown */
+.dropdown-content li a:hover {
+    background-color: #575757;
+}

@@ -1,0 +1,165 @@
+body ,html{
+    height: 100%;
+    margin: 0;
+
+}
+
+body{
+    height: 100%;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: bisque;
+}
+.dropdown a:hover{
+    background-color: blue;
+}
+.navbar .dropdown{
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style for the navigation menu */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+}
+
+/* Style for each menu item */
+.navbar li {
+    position: relative;
+}
+
+/* Style for links */
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+    background-color: grey;
+}
+
+
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+  
+  li:last-child {
+    border-right: none;
+}
+
+input {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+form{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    min-height: 80%;
+ }
+ 
+ #box {
+    width: 400%; /* This will work if #box is inside another container like form */
+    margin: 10px auto; /* Center the box */
+    padding: 20px;
+    background: #361a89; /* Optional: Add background for contrast */
+    border: 1px solid #2f7494; /* Optional: Add a border */
+    height: 600px; /* Adjust this value to make the box longer */
+}
+
+fieldset {
+    background: rgba(201, 190, 226, 0.04);
+    box-shadow: 5px 4px 5px 5px rgba(0, 0, 0, 0.164);
+    border: none; /* Optional: if you don't want the default border */
+    padding: 20px; /* Add some padding for better spacing */
+    min-height: 300px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.forgot-password {
+    display: block;  /* Moves link to a new line */
+    margin-top: 5px; /* Adds space above the link */
+    text-decoration: none; /* Optional: removes underline */
+    color: orange; /* Optional: makes it look like a link */
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+/* Submit Button */
+.Register button {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: red;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}

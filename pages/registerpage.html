@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../styles/loginform.css">
+</head>
+<body>  
+
+    <ul class="navbar">
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <div class="dropdown">
+         <button>Portal</button>
+         <div class="content">
+           <a href="../pages/registerpage.html">Register</a>
+           <a href="../pages/loginform.html">Login</a>
+            <a href="../pages/enquiry.html">Enquiry</a>
+         </div>
+    </div>
+      </ul>
+ </div>
+    <form>
+        <fieldset>
+            <legend>
+                <img src="../images/login.png" width="40px" alt="account icon"/>
+            </legend>
+            <h2>User Registration</h2>
+            <label>First Name<input type="text" placeholder="Enter your First Name"><br></label>
+            <label>Last Name<input type="text" placeholder="Enter your Last Name"><br/>
+            <label>Password<input type="password" placeholder="Enter your password"><br/>
+            <label>Confirm Password<input type="password" placeholder="Enter your password"><br/>
+            <label>Gender</label><br/>
+            <label for="male" style="display: inline-block; margin-right: 10px;">
+            <input type="radio" name="gender" id="male" value="Male"> Male
+            </label>
+            <label for="female" style="display: inline-block;">
+            <input type="radio" name="gender" id="female" value="Female"> Female
+            </label><br/>
+
+            <button type="submit">Register</button><br/>
+        </fieldset>
+    </form>
+</body>
+</html>

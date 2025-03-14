@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: bisque;
+}
+.dropdown a:hover{
+    background-color: blue;
+}
+.navbar .dropdown{
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style for the navigation menu */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+}
+
+/* Style for each menu item */
+.navbar li {
+    position: relative;
+}
+
+/* Style for links */
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+    background-color: grey;
+}
+
+
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Form Container */
+.contact-form {
+    width: 400px;
+    background: red;
+    color: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Heading */
+.contact-form h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Textarea */
+.contact-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Submit Button */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: red;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background: blue;
+}
+
+
+
+
+

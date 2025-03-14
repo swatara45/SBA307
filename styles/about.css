@@ -1,0 +1,201 @@
+body {
+    background-image: url("../ships.jpg");
+    background-size: 100%;
+    object-fit: fill;
+    margin: auto;
+    padding: 0;
+    /* background-size: cover;   Ensures the image covers the whole page */
+    background-position: center center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+}
+
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: bisque;
+}
+.dropdown a:hover{
+    background-color: blue;
+}
+.navbar .dropdown{
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style for the navigation menu */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+}
+
+/* Style for each menu item */
+.navbar li {
+    position: relative;
+}
+
+/* Style for links */
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+    background-color: grey;
+}
+
+
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  .image-btn {
+    background-image: url("../images/ship.jpg");
+    background-size: cover;  /* Adjust image size */
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 150px;  /* Adjust width as needed */
+    height: 150px;  /* Adjust height as needed */
+    color: white;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+  /* Basic container styling */
+.container {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Flexbox table layout */
+  .table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;  /* Ensure rounded corners are visible */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    padding: 13px;
+  }
+  
+  .row.header {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .row:nth-child(even) {
+    background-color: #f9f9f9;  /* Alternate row colors */
+  }
+  
+  .row:hover {
+    background-color: #f1f1f1;  /* Hover effect on rows */
+  }
+  
+  .row .cell:last-child {
+    border-right: none;  /* Remove border from the last cell */
+  }
+  
+  .table .row:last-child {
+    border-bottom: none;  /* Remove bottom border on the last row */
+  }
+  
+
+  
+    .row {
+      flex-direction: column;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .cell {
+      padding: 10px;
+      text-align: justify;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .row .cell:last-child {
+      border-bottom: none; /* Remove bottom border for the last cell */
+    }
+  
+ 
